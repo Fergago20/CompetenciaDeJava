@@ -5,11 +5,11 @@ import java.util.ArrayList;
 
 class Main {
    
-   public static int sumatoria(int [] arreglo){
+   public static int sumArray(int[] arr){
        int suma = 0;
        
-       for (int i=0; i <arreglo.length; i ++){
-           suma = suma + arreglo[i];
+       for (int i=0; i <arr.length; i ++){
+           suma = suma + arr[i];
        }
        return suma;
    }
@@ -17,6 +17,6 @@ class Main {
     public static void main(String[] args) {
         
         int [] arreglo = {5,5,8,9,10};
-        System.out.print(sumatoria(arreglo));
+        System.out.print(sumArray(arreglo));
     }
 }
