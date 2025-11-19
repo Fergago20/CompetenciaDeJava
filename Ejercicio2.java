@@ -22,8 +22,6 @@ class Main {
     
     public static void main(String[] args) {
         
-        
-        
         int contador = countVowels("Fernando");
         System.out.print(contador);
     }
